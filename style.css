@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    background-color: #9873fe;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 30em;
+    background-color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 2em;
+    border-radius: 1em;
+}
+
+.app-details {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.app-title {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+select {
+    flex: 1;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+}
+
+button {
+    width: 100%;
+    padding: 0.5em;
+    background-color: #9873fe;
+    color: white;
+    border: none;
+    border-radius: 0.3em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7749d4;
+}
+
+p {
+    margin-top: 1em;
+}
+
+#result-text {
+    font-weight: bold;
+}
+
+#result-value {
+    color: #333;
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+        width: 95%;
+        padding: 1em;
+    }
+    
+    .dropdown {
+        flex-direction: column;
+    }
+    
+    select {
+        margin-bottom: 0.5em;
+    }
+}
