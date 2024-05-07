@@ -3,10 +3,6 @@ let api = `https://v6.exchangerate-api.com/v6/${apikey}/latest/USD`;
 const fromdropDowm = document.getElementById("from-currency-select");
 const todropDowm = document.getElementById("to-currency-select");
 const result = document.getElementById("result");
-
-// Define your currencies array
-// Example currencies
-
 currencies.forEach(element => {
     const option = document.createElement('option');
     option.value = element;
